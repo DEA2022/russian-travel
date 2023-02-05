@@ -59,14 +59,7 @@
 
 @media (max-width: 977px) {
 
-  .intro__content {
-    max-width: 720px;
-    margin: 88px auto 0;
-  }
-
-  .intro__wrapper {
-    max-width: 720px;
-  }
+  /**/
   .photo-grid__content {
     max-width: 720px;
     margin: 88px auto 0;
@@ -132,6 +125,15 @@
 
   .intro__content {
     max-width: 720px;
+    margin: 88px auto 0;
+  }
+
+  .intro__wrapper {
+    max-width: 720px;
+  }
+
+  .intro__title {
+    font-size: calc(32px + (54 - 32) * (100vw - 320px) / (768 - 320));
   }
 
   .cover {
@@ -205,7 +207,10 @@
 
   .intro__content {
     max-width: 288px;
+    margin-top: 64px;
     padding-left: calc(16px + (24 - 16) * (100vw - 320px) / (350-320));
     padding-right: calc(16px + (24 - 16) * (100vw - 320px) / (350-320));
   }
+
+
 }
