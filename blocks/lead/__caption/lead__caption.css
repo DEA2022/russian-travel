@@ -1,0 +1,30 @@
+.lead__caption {
+  padding-top: 8px;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 10px;
+  line-height: 1.4;
+  letter-spacing: 0.15em;
+  align-self: flex-start;
+}
+
+@media (max-width: 900px) {
+  .lead__caption {
+    padding-left: calc(24px + (0 - 24) * (100vw - 768px) / (900 - 768));
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 768px) {
+  .lead__caption {
+    padding-left: 24px;
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 350px) {
+  .lead__caption {
+    padding-left: calc(16px + (24 - 16) * (100vw - 320px) / (350 - 320));
+    max-width: 288px;
+  }
+}

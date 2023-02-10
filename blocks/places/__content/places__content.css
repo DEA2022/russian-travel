@@ -1,0 +1,22 @@
+.places__content {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(5, minmax(min-content, max-content));
+  gap: 80px;
+}
+
+@media (max-width: 900px) {
+  .places__content {
+    gap: 73px;
+  }
+
+  /*.places__content:last-child {
+    gap: 72px;
+  }*/
+}
+
+@media (max-width: 350px) {
+  .places__content {
+    gap: 50px;
+  }
+}

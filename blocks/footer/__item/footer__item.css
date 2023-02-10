@@ -1,0 +1,19 @@
+.footer__item {
+  text-decoration: none;
+  padding: 0;
+  margin-right: 18px;
+}
+
+.footer__item:last-child {
+  margin-right: 0;
+}
+
+@media (max-width: 630px) {
+  .footer__item {
+    padding-bottom: 32px;
+  }
+
+  .footer__item:last-child {
+    padding-bottom: 0px;
+  }
+}

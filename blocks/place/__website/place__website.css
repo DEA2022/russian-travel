@@ -1,0 +1,15 @@
+.place__website {
+  grid-area: url;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "web"
+                      "link";
+  gap: 12px;
+}
+
+@media (max-width: 350px) {
+  .place__website {
+    padding: 0 16px;
+  }
+}
