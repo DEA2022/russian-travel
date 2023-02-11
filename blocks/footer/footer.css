@@ -1,4 +1,4 @@
-.footer-content {
+.footer {
   max-width: 1184px;
   display: flex;
   justify-content: space-between;
@@ -7,20 +7,20 @@
 }
 
 @media (max-width: 1024px) {
-  .footer-content {
+  .footer {
     max-width: 928px;
   }
 }
 
 @media (max-width: 768px) {
-  .footer-content {
+  .footer {
     max-width: 720px;
     margin: 88px auto 24px;
   }
 }
 
 @media (max-width: 630px) {
-  .footer-content {
+  .footer {
     flex-direction: column;
     margin-top: 64px;
   }

@@ -4,11 +4,22 @@
   gap: 16px;
   justify-items: stretch;
   list-style-type: none;
+  padding: 0;
+  max-width: 1184px;
+  margin: 92px auto 0;
 }
 
 @media (max-width: 1024px) {
   .photo-grid__content {
     gap: 14px;
+    max-width: 928px;
+  }
+}
+
+@media (max-width: 900px) {
+  .photo-grid__content {
+    max-width: 720px;
+    margin: 88px auto 0;
   }
 }
 
@@ -22,6 +33,12 @@
   .photo-grid__content {
     gap: 12px;
     justify-items: center;
+  }
+}
+
+@media (max-width: 350px) {
+  .photo-grid__content {
+    margin-top: 64px;
   }
 }
 

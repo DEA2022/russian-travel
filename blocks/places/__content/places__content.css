@@ -3,16 +3,32 @@
   grid-template-columns: 1fr;
   grid-template-rows: repeat(5, minmax(min-content, max-content));
   gap: 80px;
+  max-width: 984px;
+  margin: 92px auto 0;
+  padding: 0 48px;
+}
+
+@media (max-width: 1024px) {
+  .places__content {
+    max-width: 928px;
+  }
 }
 
 @media (max-width: 900px) {
   .places__content {
     gap: 73px;
+    max-width: 720px;
+    margin: 88px auto 0;
+    padding-left: calc(24px + (48 - 24) * (100vw - 768px) / (900 - 768));
+    padding-right: calc(24px + (48 - 24) * (100vw - 768px) / (900 - 768));
   }
+}
 
-  /*.places__content:last-child {
-    gap: 72px;
-  }*/
+@media (max-width: 630px) {
+  .places__content {
+    margin-top: 64px;
+    padding: 0;
+  }
 }
 
 @media (max-width: 350px) {

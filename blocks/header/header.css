@@ -3,10 +3,25 @@
   display: flex;
   justify-content: space-between;
   align-content: flex-end;
+  max-width: 1184px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+  .header {
+    max-width: 928px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    max-width: 720px;
+  }
 }
 
 @media (max-width: 350px) {
   .header {
+    max-width: 288px;
     padding-left: calc(16px + (24 - 16) * (100vw - 320px) / (350 - 320));
     padding-right: calc(16px + (24 - 16) * (100vw - 320px) / (350 - 320));
     padding-top: 16px;

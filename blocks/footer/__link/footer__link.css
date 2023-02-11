@@ -5,7 +5,7 @@
   line-height: 1.13;
 }
 
-.footer__link_type_opacity:hover {
+.footer__link:hover {
   opacity: 0.8;
 }
 
