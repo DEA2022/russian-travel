@@ -1,10 +1,10 @@
-.intro-content {
+.intro {
   max-width: 984px;
   margin: 92px auto 0;
 }
 
 @media (max-width: 1024px) {
-  .intro-content {
+  .intro {
     max-width: 928px;
     padding-left: calc(24px + (0 - 24) * (100vw - 768px) / (1024 - 768));
     padding-right: calc(24px + (0 - 24) * (100vw - 768px) / (1024 - 768));
@@ -12,7 +12,7 @@
 }
 
 @media (max-width: 768px) {
-  .intro-content {
+  .intro {
     max-width: 720px;
     margin: 88px auto 0;
     padding-left: calc(16px + (24 - 16) * (100vw - 320px) / (768 - 320));
@@ -21,7 +21,7 @@
 }
 
 @media (max-width: 350px) {
-  .intro-content {
+  .intro {
     max-width: 288px;
     margin: 64px 0 0 0;
   }
